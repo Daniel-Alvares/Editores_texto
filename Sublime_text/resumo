@@ -1,0 +1,130 @@
+***********************************************
+             Sublime Text 3
+***********************************************
+
+INTRODUÇÃO
+
+Sublime Text é um editor de texto que foi projetado para ser simples, rápido, flexível e fácil de usar. Não é à toa que vem ganhando mais adeptos a cada dia, já que muitas vezes os programadores, escritores e usuários emgeral acabam cansados e frustrados por ter que lidar com IDEs pesadas e lentas ou editores de texto sobrecarregados de recursos que nunca vão precisar. Preparei este guia para quem está em busca de uma alternativa e quer aprender de maneira fácil e rápida os principais recursos que o Sublime Text tem a oferecer.Nas próximas páginas, você será apresentado às funcionalidades mais importantes do Sublime Text e vai encontrar dicas que poderá incorporar ao seu uso diário.Espero que você goste do que vai encontrar aqui. Se gostar, peço que compartilhe com seus amigos, para que eles também possam aproveitar as facilidades do Sublime Text.
+
+
+Todo esse resumo teve como fonte o link abaixo. Recomendo dar uma olhada nele para ter maiores detalhes.
+
+fonte: http://www.cge.am.gov.br/wp-content/uploads/2016/02/ebook-guia-rapido-www.sublimetextdicas.com_.br_.pdf
+
+-------------------------------------------------------------------------------------------------
+
+Download
+
+link -> https://www.sublimetext.com/3
+
+Sublime Text 3 is the current version of Sublime Text. For bleeding-edge releases, see the dev builds.
+
+Version:
+
+    OS X (10.7 or later is required)
+    Windows - also available as a portable version
+    Windows 64 bit - also available as a portable version
+    Linux repos - also available as a 64 bit or 32 bit tarball
+
+
+------------------------------------------------------------------------------------------------
+
+Sublime Text Community Documentation
+
+link -> https://docs.sublimetext.io/guide/
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+Comandos que ajudam na Edição
+_____________________________
+
+ Digitar Crtl+P -> Localizar arquivos
+
+ 2.Começar a escrever o nome do arquivo que está procurando
+ 3.Selecionar o arquivo com as setas para cima ou para baixo 
+ 4.Teclar Enter
+
+Desloca a Linha
+-----------------------------
+Crtl+Shift+P -> Com ele, você tem como pesquisar os próprios comandosdo Sublime Text.
+
+
+Crtl + Shift + Seta pra cima ou pra baixo -> desloca a linha inteira
+
+
+SELEÇÃO MÚLTIPLA
+-------------------------------
+
+Para incluir linhas acima ou abaixo à seleção de texto atual, usamos Shift+Alt+Para cima ou Shift+Alt+Para baixo, respectivamente.
+
+Crtl+D -> faz com que a próxima ocorrência desse trecho também seja selecionada.
+
+Shift+F11 - você aciona o modo sem distrações (distraction-free mode) do editor, cuja função é remover da sua tela tudo o que não for a área de edição de texto.
+
+No Sublime Text, para selecionar uma linha basta digitar Ctrl+L.
+
+BOOKMARKS
+--------------------------------------
+
+"Tenho certeza de que um dia você já precisou editar arquivos bem extensos, certo? Então você sabe como pode ser irritante alternar entre dois trechos de texto ou código-fonte que ficam distantes um do outro.Para facilitar sua vida, o Sublime Text oferece o recurso de bookmarks. Criar um bookmark em um determinado ponto do arquivo facilita a navegação até ele por meio deteclas de atalho.Para criar um bookmark, basta posiciona o cursor na linha desejada e digitar Crtl+F2. A mesma combinação de teclas serve para remover o bookmark.A navegação é feita por meio dos atalhos F2 (para avançar ao próximo) e Shift+F2 (para retornar ao anterior).  Crtl+Shift+F2 remove todos os bookmarks do arquivo."
+
+------------------------------------------------
+• Inserir linha abaixo: Crtl+Enter
+• Inserir linha acima: Crtl+Shift+Enter
+
+Depois é só sair digitando, pois o cursor já vai estar no lugar certo.
+
+----------------------------------------------
+
+Remoção de Texto
+
+Da mesma maneira que a inserção de novas linhas, apagar texto a partir da posição do cursor até o início ou o final de uma linha, por exemplo, pode ser bem trabalhoso. Selecionar o trecho de texto desejado envolveuma sequência de movimentos que pode ficar relativamente complicada.
+
+• Apagar texto da posição do cursor até o início da linha: Crtl+Shift+Backspace
+• Apagar texto da posição do cursor até o final da linha: Crtl+K, Crtl+K (isso mesmo, Crtl+K duas vezes)
+• Apagar palavra anterior: Crtl+Backspace•Apagar palavra seguinte: Crtl+Del
+
+O segredo para se habituar aos atalhos é tentar pensar duas vezes antes de selecionar um trecho de texto. Se suaintenção é apagá-lo, lembre-se deles!
+
+
+DUPLICAR UMA LINHA EXISTENTE
+-----------------------------------------
+E se eu quiser duplicar uma linha já existente? Fácil! O atalho para isso é 
+
+Crtl+Shift+D (“D” de duplicar, para não esquecer) 
+
+na linha que deseja duplicar. Certamente você já deve ter deduzido que, para duplicar um bloco delinhas, é só selecioná-lo antes.
+
+TRANSFORMAR O TEXTO EM CAIXA ALTA OU CAIXA BAIXA
+------------------------------------------------------
+
+Para finalizar, se você precisar colocar todo o texto selecionado em caixa alta rapidamente, basta fazer um Crtl+K, Crtl+U. Para transformar em caixa baixa, faça Crtl+K, Crtl+L.
+
+
+
+BUSCA DE TEXTO
+------------------------------------------------------
+Além do tradicional e onipresente Crtl+F, para localizara primeira ocorrência do texto após o cursor, o editor traz mais alguns truques na manga:
+
+Crtl+H faz a pesquisa e substituição do texto. Tanto ele, quanto a busca normal abrem um painel de busca com várias opções, entre elas a busca usando expressões regulares.
+
+Crtl+I é semelhante à busca normal, mas se restringe apenas à primeira ocorrência. Ao digitar Enter, o painel some.
+
+Mas, para mim, a grande estrela da busca e substituição é o Alt+F3. Esse danado tem a manha de encontrar e selecionar todas as ocorrências da palavra sob o cursor –  ou do texto selecionado – criando um cursor após cada uma delas. Daí é só apagar, inserir ou modificar texto à vontade: tudo o que você digitar se repete ao mesmo tempo para cada ocorrência!
+
+SNIPPETS
+-------------------------------------------------------
+
+Snippets são trechos de código ou texto prontos para inserção em qualquer ponto de um arquivo por meio de um trigger (gatilho) acionado pela tecla Tab.
+
+
+Para ver os snippets disponíveis para o contexto da sintaxe do arquivo que você está editando, basta selecionar a opção Tools > Snippets... no menu.
+
+Como não podia deixar de ser, também é possível criar nossos próprios snippets personalizados3. Para isso, é só selecionar a opção de menu Tools > New snippet....
+
+
+
+
